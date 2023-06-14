@@ -3,6 +3,7 @@ import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, LSTM
 from tensorflow.keras.optimizers import Adam
+import os
 
 # Define the neural network model
 def create_model(input_shape, output_shape):
